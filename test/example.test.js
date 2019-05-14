@@ -56,7 +56,7 @@ describe("GET /api/examples", function() {
         expect(responseBody[1])
           .to.be.an("object")
           .that.includes({
-            text: "Second Example",
+            text: "Second Examplex",
             description: "Second Description"
           });
 
