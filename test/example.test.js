@@ -57,7 +57,7 @@ describe("GET /api/examples", function() {
           .to.be.an("object")
           .that.includes({
             text: "Second Example",
-            description: "Second Descriptionx"
+            description: "Second Description"
           });
 
         // The `done` function is used to end any asynchronous tests
